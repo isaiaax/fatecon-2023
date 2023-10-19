@@ -1,0 +1,251 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+  }
+
+header {
+    background-color: #e5e5e5;
+}
+
+header .nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+    height: 10vh;
+
+    max-width: 1330px;
+    margin: auto;
+
+}
+
+header .nav ul li {
+    font-family: 'Irish Grover', cursive;
+
+}
+
+header .nav ul li a {
+    text-decoration: none;
+    color: #8d99ae;
+    font-size: 24px;
+}
+
+header .nav ul li a:hover {
+color: #ef233c;
+}
+
+header .nav figure img {
+    height: 70px;
+}
+
+header .nav-bar ul {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+}
+
+
+main .home-container {
+    background-color: #a8dadc;
+}
+
+main .home-container h1 {
+    text-align: center;
+    padding: 30px 0 30px 0;
+    font-size: 36px;
+    font-family: 'Irish Grover', cursive;
+}
+
+main .home-container .home {
+    display: flex;
+    align-items: center;
+    gap: 160px;
+    max-width: 1330px;
+    margin: auto;
+}
+
+
+main .home-container .home p {
+    font-family: 'Poppins', sans-serif;
+}
+
+main .home-container .home figure img {
+    height: 470px;
+    margin-bottom: 30px;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+main .artistas-container {
+    background-color: #457b9d;
+}
+
+main .artistas-container h2 {
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 0 25px 0;
+}
+
+main .artistas-container .artistas {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 40px;
+
+    max-width: 1330px;
+    margin: auto;
+}
+
+main .artistas-container .artistas h3 {
+    font-family: 'Poppins';
+    text-align: center;
+    margin: 0 0 20px 0;
+}
+
+main .artistas-container .artistas figure img {
+    height: 300px;
+    width: 300px;
+
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+main .entrevistas-container {
+    background-color: #8ecae6;
+}
+
+main .entrevistas-container h2 {
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    text-align: center;
+    padding: 20px 0 20px 0;
+}
+
+main .entrevistas-container .entrevistas {
+    display: flex;
+    justify-content: space-between;
+
+
+    max-width: 1330px;
+    margin: auto;
+
+}
+
+main .entrevistas-container .entrevistas .entrevistado figure {
+display: flex;
+justify-content: center;
+}
+
+
+main .entrevistas-container .entrevistas .entrevistado img {
+    height: 250px;
+    width: 250px;
+}
+
+main .entrevistas-container .entrevistas .entrevistado h3 {
+    text-align: center;
+    margin-bottom: 8px;
+    margin: 12px;
+}
+
+main .entrevistas-container .entrevistas .entrevistado p {
+    width: 350px;
+    text-align: center;
+    font-family: 'Poppins';
+}
+
+main .galeria-container {
+    background-color: #457b9d;
+}
+
+main .galeria-container h2 {
+    text-align: center;
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    padding: 20px 0 20px 0;
+}
+
+main .galeria-container .galeria-total {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1330px;
+    margin: auto;
+}
+
+main .galeria-container .galeria-total .galeria-col {
+    display: flex;
+    flex-direction: column;
+}
+
+
+main .galeria-container .galeria-total .galeria-col img {
+    width: 430px;
+    margin-bottom: 20px;
+}
+
+
+main .criador-container {
+    background-color: #f1faee;
+}
+
+main .criador-container h2 {
+    text-align: center;
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    padding: 20px 0 20px 0;
+}
+
+main .criador-container .criador {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 1330px;
+    margin: auto;
+}
+
+main .criador-container .criador p {
+    font-family: 'Poppins';
+
+}
+
+main .criador-container .criador img {
+    height: 530px;
+    width: 650px;
+}
+
+
+main .sobre-nos-container {
+    background-color: #8ecae6;
+}
+
+main .sobre-nos-container h2 {
+    text-align: center;
+    font-family: 'Irish Grover';
+    font-size: 32px;
+    padding: 20px 0 20px 0;
+}
+
+main .sobre-nos-container .sobre-nos {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    max-width: 1330px;
+    margin: auto;
+}
+
+main .sobre-nos-container .sobre-nos p {
+    font-family: 'Poppins';
+}
+
+main .sobre-nos-container .sobre-nos figure img {
+    width: 500px;
+    height: 500px;
+    padding-bottom: 80px;
+}
